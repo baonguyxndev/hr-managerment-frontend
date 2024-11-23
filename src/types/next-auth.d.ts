@@ -12,7 +12,7 @@ interface IUser {
 declare module "next-auth/jwt" {
     /** Returned by the `jwt` callback and `getToken`, when using JWT sessions */
     interface JWT {
-        access_token: string;
+        accessToken: string;
         refresh_token: string;
         user: IUser;
         access_expire: number;
